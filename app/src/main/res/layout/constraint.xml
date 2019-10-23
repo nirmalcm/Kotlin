@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:tint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/selectedFoodTxt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Chineese"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/addFoodTxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.673" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/addFoodTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="136dp"
+            android:ems="10"
+            android:fontFamily="@font/muli_bold"
+            android:hint="Add new food"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/addFoodBtn"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="211dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="68dp"
+            android:background="@color/colorPrimary"
+            android:text="ADD FOOD"
+            app:layout_constraintBottom_toTopOf="@+id/decideBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addFoodTxt"
+            app:layout_constraintVertical_bias="0.054" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/decideBtn"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/muli_bold"
+        android:text="Decide"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"/>
+
+</FrameLayout>
