@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nirmal/AndroidStudioProjects/Kotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/nirmal/Documents/!/ProJecTs/KotLIn/WorK SpacE/Kotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/nirmal/.gradle/caches/transforms-2/files-2.1/0470387faa7b1080135cfdf1441459c6/appcompat-1.0.2/res/values-zh-rCN/values-zh-rCN.xml",
